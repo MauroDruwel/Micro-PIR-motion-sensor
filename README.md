@@ -1,4 +1,5 @@
 # WPSE353 Micro PIR motion sensor module
+This repository is based on [the product's repository](https://github.com/WhaddaMakers/Micro-PIR-motion-sensor)
 
 This example will print out a message and light up an LED when the sensor has detected motion using an Arduino compatible board.
 
