@@ -22,7 +22,7 @@
 */
 
 const int sens_pin = 2; // Set pin number connected to sensor
-const int LED_pin = 13;
+const int LED_pin = 13; // Set pin number connected to led
 
 
 void setup() {
@@ -31,7 +31,7 @@ void setup() {
   pinMode(LED_pin, OUTPUT);
 
   Serial.println("Connect the PIR sensor's S pin to Digital Pin 2");
-  Serial.println("I will print out a message and light up the built-in LED when I detect something...");
+  Serial.println("I will print out a message and an LED when I detect something...");
   Serial.println();
 }
 
